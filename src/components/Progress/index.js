@@ -1,4 +1,7 @@
 import * as React from "react";
+
+import CountUp from "react-countup";
+
 import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
@@ -78,7 +81,7 @@ function Progress() {
                         textAlign: "left",
                       }}
                     >
-                      3,000
+                      <CountUp start={1500} end={3000} duration={2} />
                     </Typography>
                     <Typography
                       sx={{
@@ -138,7 +141,7 @@ function Progress() {
                         textAlign: "left",
                       }}
                     >
-                      320
+                      <CountUp start={100} end={320} duration={2} />
                     </Typography>
                     <Typography
                       sx={{
@@ -198,7 +201,7 @@ function Progress() {
                         textAlign: "left",
                       }}
                     >
-                      1,000
+                      <CountUp start={500} end={1000} duration={2} />
                     </Typography>
                     <Typography
                       sx={{
@@ -258,7 +261,7 @@ function Progress() {
                         textAlign: "left",
                       }}
                     >
-                      587
+                      <CountUp start={300} end={587} duration={2} />
                     </Typography>
                     <Typography
                       sx={{
