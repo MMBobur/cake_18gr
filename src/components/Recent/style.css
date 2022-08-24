@@ -1,0 +1,11 @@
+.our_blog{
+    text-align: center;
+    color: #1eb2a6;
+}
+.recent_from_blog{
+    text-align: center;
+    font-family: "Roboto",Arial,sans-serif;
+}
+.asosiy{
+    display: flex;
+}
