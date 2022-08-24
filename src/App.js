@@ -1,4 +1,4 @@
-
+import Follow from '../src/component/Follow';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       {/* video */}
       {/* food */}
       {/* blog */}
-      {/* follow */}
+      <Follow />
       {/* footer */}
     </>
   );
