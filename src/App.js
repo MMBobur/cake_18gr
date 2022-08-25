@@ -1,15 +1,16 @@
 import Schilers from './Companents/Schilers'
 import './style.css'
+import Blogs from "./Companents/Blogs"
 function App() {
 
   return (
     <>
       {/* header */}
-      <Schilers/>
+      {/* <Schilers/> */}
       {/* carusel */}
       {/* video */}
       {/* food */}
-      {/* blog */}
+      <Blogs/>
       {/* follow */}
       {/* footer */}
     </>
