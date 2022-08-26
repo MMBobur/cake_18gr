@@ -1,10 +1,11 @@
+import Header from "./components/header";
 
+import './style.css'
 
 function App() {
-
   return (
     <>
-      {/* header */}
+      <Header />
       {/* Schilers */}
       {/* carusel */}
       {/* video */}
