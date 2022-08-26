@@ -1,3 +1,4 @@
+import Food from './companents/food'
 import Schilers from './Companents/Schilers'
 import './style.css'
 import Blogs from "./Companents/Blogs"
@@ -11,7 +12,7 @@ function App() {
       {/* <Schilers/> */}
       {/* carusel */}
       {/* video */}
-      {/* food */}
+      <Food/>
       {/* follow */}
       <Blogs/>
       <Follow />
