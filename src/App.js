@@ -1,6 +1,8 @@
 import Schilers from './Companents/Schilers'
 import './style.css'
 import Blogs from "./Companents/Blogs"
+import Follow from '../src/component/Follow';
+
 function App() {
 
   return (
@@ -10,8 +12,9 @@ function App() {
       {/* carusel */}
       {/* video */}
       {/* food */}
-      <Blogs/>
       {/* follow */}
+      <Blogs/>
+      <Follow />
       {/* footer */}
     </>
   );
