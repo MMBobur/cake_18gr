@@ -1,4 +1,4 @@
-
+import Food from './companents/food'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
       {/* Schilers */}
       {/* carusel */}
       {/* video */}
-      {/* food */}
+      <Food/>
       {/* blog */}
       {/* follow */}
       {/* footer */}
