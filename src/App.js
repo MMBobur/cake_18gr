@@ -1,3 +1,5 @@
+import Schilers from './Companents/Schilers'
+import './style.css'
 import Follow from '../src/component/Follow';
 
 function App() {
@@ -5,7 +7,7 @@ function App() {
   return (
     <>
       {/* header */}
-      {/* Schilers */}
+      <Schilers/>
       {/* carusel */}
       {/* video */}
       {/* food */}
