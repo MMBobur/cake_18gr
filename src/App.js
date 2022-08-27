@@ -1,18 +1,27 @@
 import Footer from "./components/Footer";
 
+import Header from "./components/header";
+import './style.css'
+import Food from './companents/food'
+import Schilers from './Companents/Schilers'
+import './style.css'
+import Blogs from "./Companents/Blogs"
+import Follow from '../src/component/Follow';
 
 function App() {
-
   return (
     <>
+      <Header />
       {/* header */}
-      {/* Schilers */}
+      <Schilers/> 
       {/* carusel */}
       {/* video */}
-      {/* food */}
-      {/* blog */}
+      <Food/>
       {/* follow */}
       <Footer/>
+      <Blogs/>
+      <Follow />
+      {/* footer */}
     </>
   );
 }
