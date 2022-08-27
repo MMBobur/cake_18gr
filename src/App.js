@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+
 import Header from "./components/header";
 import './style.css'
 import Food from './companents/food'
@@ -16,6 +18,7 @@ function App() {
       {/* video */}
       <Food/>
       {/* follow */}
+      <Footer/>
       <Blogs/>
       <Follow />
       {/* footer */}
