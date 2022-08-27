@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       {/* food */}
       {/* blog */}
       {/* follow */}
-      {/* footer */}
+      <Footer/>
     </>
   );
 }
